@@ -1,0 +1,1329 @@
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.427 seconds.[0m
+notifying browser that file changed:  target/classes/public/app.js
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.551 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.918 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.242 seconds.[0m
+[36m----  Could not Analyze  src/undead/client.cljs  ----[0m
+
+  [1mNo such namespace: om.dom, could not locate om/dom.cljs, om/dom.cljc, or JavaScript source providing "om.dom" [0m
+
+[36m----  Analysis Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.839 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.016 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.084 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.275 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:11  column:2  ----[0m
+
+  [1mUse of undeclared Var undead.client/defui[0m
+
+  [36m 7[0m  [36m			  :sand (repeat 30 :remaining)[0m
+  [36m 8[0m  [36m			  :foggy? false})[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [33m11[0m  [1m(defui Hello[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var undead.client/defui[0m
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:11  column:8  ----[0m
+
+  [1mUse of undeclared Var undead.client/Hello[0m
+
+  [36m 7[0m  [36m			  :sand (repeat 30 :remaining)[0m
+  [36m 8[0m  [36m			  :foggy? false})[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [33m11[0m  [1m(defui Hello[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var undead.client/Hello[0m
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:12  column:3  ----[0m
+
+  [1mUse of undeclared Var undead.client/Object[0m
+
+  [36m 8[0m  [36m			  :foggy? false})[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(defui Hello[0m
+  [33m12[0m  [1m  Object[0m
+  [0m  [0m  [33m  ^--- Use of undeclared Var undead.client/Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:13  column:4  ----[0m
+
+  [1mUse of undeclared Var undead.client/render[0m
+
+  [36m11[0m  [36m(defui Hello[0m
+  [36m12[0m  [36m  Object[0m
+  [33m13[0m  [1m  (render [this][0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var undead.client/render[0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:13  column:12  ----[0m
+
+  [1mUse of undeclared Var undead.client/this[0m
+
+  [36m11[0m  [36m(defui Hello[0m
+  [36m12[0m  [36m  Object[0m
+  [33m13[0m  [1m  (render [this][0m
+  [0m  [0m  [33m           ^--- Use of undeclared Var undead.client/this[0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:14  column:6  ----[0m
+
+  [1mNo such namespace: dom, could not locate dom.cljs, dom.cljc, or JavaScript source providing "dom"[0m
+
+  [36m11[0m  [36m(defui Hello[0m
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [33m14[0m  [1m    (dom/h1 nil "Hello, world!")))[0m
+  [0m  [0m  [33m     ^--- No such namespace: dom, could not locate dom.cljs, dom.cljc, or JavaScript source providing "dom"[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:14  column:6  ----[0m
+
+  [1mUse of undeclared Var dom/h1[0m
+
+  [36m11[0m  [36m(defui Hello[0m
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [33m14[0m  [1m    (dom/h1 nil "Hello, world!")))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var dom/h1[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:16  column:13  ----[0m
+
+  [1mNo such namespace: om, could not locate om.cljs, om.cljc, or JavaScript source providing "om"[0m
+
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [33m16[0m  [1m(def hello (om/factory Hello))[0m
+  [0m  [0m  [33m            ^--- No such namespace: om, could not locate om.cljs, om.cljc, or JavaScript source providing "om"[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:16  column:13  ----[0m
+
+  [1mUse of undeclared Var om/factory[0m
+
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [33m16[0m  [1m(def hello (om/factory Hello))[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var om/factory[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:16  column:24  ----[0m
+
+  [1mUse of undeclared Var undead.client/Hello[0m
+
+  [36m12[0m  [36m  Object[0m
+  [36m13[0m  [36m  (render [this][0m
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [33m16[0m  [1m(def hello (om/factory Hello))[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var undead.client/Hello[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:18  column:31  ----[0m
+
+  [1mNo such namespace: gdom, could not locate gdom.cljs, gdom.cljc, or JavaScript source providing "gdom"[0m
+
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [33m18[0m  [1m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+  [0m  [0m  [33m                              ^--- No such namespace: gdom, could not locate gdom.cljs, gdom.cljc, or JavaScript source providing "gdom"[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:18  column:31  ----[0m
+
+  [1mUse of undeclared Var gdom/getElement[0m
+
+  [36m14[0m  [36m    (dom/h1 nil "Hello, world!")))[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(def hello (om/factory Hello))[0m
+  [36m17[0m  [36m[0m
+  [33m18[0m  [1m(.render js/ReactDOM (hello) (gdom/getElement "example"))[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var gdom/getElement[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.836 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.673 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.814 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.016 seconds.[0m
+[36m----  Could not Analyze  src/undead/client.cljs  ----[0m
+
+  [1mNo such namespace: reagent.core, could not locate reagent/core.cljs, reagent/core.cljc, or JavaScript source providing "reagent.core" [0m
+
+[36m----  Analysis Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.278 seconds.[0m
+[36m----  Could not Analyze  src/undead/client.cljs  ----[0m
+
+  [1mNo such namespace: reagent.core, could not locate reagent/core.cljs, reagent/core.cljc, or JavaScript source providing "reagent.core" [0m
+
+[36m----  Analysis Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.542 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.921 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.989 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.23 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.656 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.03 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.277 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.48 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.404 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:22  column:5  ----[0m
+
+  [1mUse of undeclared Var undead.client/Game[0m
+
+  [36m18[0m  [36m    [:span {:style {:color "red"}} " and red"][0m
+  [36m19[0m  [36m    " text."]])[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(r/render-component [0m
+  [33m22[0m  [1m   [Game game][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var undead.client/Game[0m
+  [36m23[0m  [36m   (.getElementById js/document "main"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.283 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+Figwheel: Can't open  ("src/undead/client.cljs" 22 5) No :open-file-command supplied in the config.
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:22  column:5  ----[0m
+
+  [1mUse of undeclared Var undead.client/Game[0m
+
+  [36m18[0m  [36m    [:span {:style {:color "red"}} " and red"][0m
+  [36m19[0m  [36m    " text."]])[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(r/render-component [0m
+  [33m22[0m  [1m   [Game][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var undead.client/Game[0m
+  [36m23[0m  [36m   (.getElementById js/document "main"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.326 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:22  column:5  ----[0m
+
+  [1mUse of undeclared Var undead.client/Game[0m
+
+  [36m18[0m  [36m    [:span {:style {:color "red"}} " and red"][0m
+  [36m19[0m  [36m    " text."]])[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(r/render-component [0m
+  [33m22[0m  [1m   [Game][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var undead.client/Game[0m
+  [36m23[0m  [36m   (.getElementById js/document "main"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.968 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.423 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.819 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.149 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.483 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.257 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.253 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:18 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 18, col 43] Unmatched delimiter ].[0m
+
+  [36m16[0m  [36m(defn Board [cells][0m
+  [36m17[0m  [36m  [:div {:class  "board clearfix"}[0m
+  [33m18[0m  [1m    (apply (map Line (partition 4 cells))][0m
+  [0m  [0m  [33m    D:\projects\parens-of-the-dead\src\undead\client.cljs [line 18, col 43] Unmatched delimiter ].[0m
+  [36m19[0m  [36m)[0m
+  [36m20[0m  [36m	  [0m
+  [36m21[0m  [36m(defn Game [game][0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:18  column:5  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/apply[0m
+
+  [36m14[0m  [36m  [:div {:class "line"}])[0m
+  [36m15[0m  [36m  [0m
+  [36m16[0m  [36m(defn Board [cells][0m
+  [36m17[0m  [36m  [:div {:class  "board clearfix"}][0m
+  [33m18[0m  [1m    (apply (map Line (partition 4 cells)))[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (1) passed to cljs.core/apply[0m
+  [36m19[0m  [36m)[0m
+  [36m20[0m  [36m	  [0m
+  [36m21[0m  [36m(defn Game [game][0m
+  [36m22[0m  [36m  [:div[0m
+  [36m23[0m  [36m   (Board (:board game))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.93 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.312 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.59 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.694 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.66 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.558 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.368 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.937 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.993 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.09 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.251 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.25 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.39 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.629 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.168 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.516 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.649 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.765 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:6  ----[0m
+
+  [1mUse of undeclared Var undead.client/div[0m
+
+  [36m11[0m  [36m	  :foggy? false}))[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(defn Cell [cell][0m
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [33m15[0m  [1m    [div {:class "tile revealed"}]][0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var undead.client/div[0m
+  [36m16[0m  [36m) [0m
+  [36m17[0m  [36m	  [0m
+  [36m18[0m  [36m(defn Line [cells][0m
+  [36m19[0m  [36m  [:div {:class "line"}[0m
+  [36m20[0m  [36m    (map Cell cells)][0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.786 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.412 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.472 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.087 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.975 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.868 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.107 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.38 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.402 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:16 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 16, col 56] Unmatched delimiter }.[0m
+
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [33m16[0m  [1m	                  (when (:revealed cell) " revealed")}[0m
+  [0m  [0m  [33mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 16, col 56] Unmatched delimiter }.[0m
+  [36m17[0m  [36m	   [:div {:class "front"}][0m
+  [36m18[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m19[0m  [36m) [0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.761 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.324 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.652 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.354 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:17 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 17, col 56] Unmatched delimiter ).[0m
+
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [36m16[0m  [36m	                  (when (:revealed? cell) " revealed"))[0m
+  [33m17[0m  [1m	                  (when (:matched? cell) " revealed"))}[0m
+  [0m  [0m  [33mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 17, col 56] Unmatched delimiter ).[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [36m19[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m20[0m  [36m) [0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.086 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:33  column:4  ----[0m
+
+  [1mUse of undeclared Var undead.client/Timer[0m
+
+  [36m30[0m  [36m(defn Game [][0m
+  [36m31[0m  [36m  [:div {:class (when (:foggy? @game) "foggy")}[0m
+  [36m32[0m  [36m    (Board (:board @game))[0m
+  [33m33[0m  [1m	 (Timer (:sand @game))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var undead.client/Timer[0m
+  [36m34[0m  [36m  ])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(r/render-component [0m
+  [36m37[0m  [36m   [Game][0m
+  [36m38[0m  [36m   (.getElementById js/document "main"))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.285 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.582 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.316 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.697 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.179 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 4.62 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.54 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.264 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:31  column:3  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/apply[0m
+
+  [36m27[0m  [36m  [:div {:class "timer"}[0m
+  [36m28[0m  [36m  ])[0m
+  [36m29[0m  [36m	 [0m
+  [36m30[0m  [36m(defn Board [cells][0m
+  [33m31[0m  [1m  (apply [:div {:class "board clearfix"}[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (1) passed to cljs.core/apply[0m
+  [36m32[0m  [36m    (map Line (partition 4 cells))]))[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(defn Game [][0m
+  [36m35[0m  [36m  [:div {:class (when (:foggy? @game) "foggy")}[0m
+  [36m36[0m  [36m    (Board (:board @game))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.267 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+Figwheel: Can't open  ("src/undead/client.cljs" 31 3) No :open-file-command supplied in the config.
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.588 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.396 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.571 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.072 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.033 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.336 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.63 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.479 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.57 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.157 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:29 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 29, col 37] Unmatched delimiter }.[0m
+
+  [36m27[0m  [36m  [:div {:class (str "sand"[0m
+  [36m28[0m  [36m                    (when (:remaining sand) " remaining"[0m
+  [33m29[0m  [1m						  (when (:gone sand) " gone")}][0m
+  [0m  [0m  [33mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 29, col 37] Unmatched delimiter }.[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m(defn Timer [sand][0m
+  [36m32[0m  [36m  [:div {:class "timer"}[0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.197 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:29 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 29, col 37] Unmatched delimiter }.[0m
+
+  [36m27[0m  [36m  [:div {:class (str "sand"[0m
+  [36m28[0m  [36m                    (when (:remaining sand) " remaining")[0m
+  [33m29[0m  [1m						  (when (:gone sand) " gone")}][0m
+  [0m  [0m  [33mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 29, col 37] Unmatched delimiter }.[0m
+  [36m30[0m  [36m)[0m
+  [36m31[0m  [36m(defn Timer [sand][0m
+  [36m32[0m  [36m  [:div {:class "timer"}[0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.467 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.209 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:27 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 27, col 35] Unmatched delimiter }.[0m
+
+  [36m25[0m  [36m    (map Cell cells)])[0m
+  [36m26[0m  [36m(defn Sand [sand][0m
+  [33m27[0m  [1m  [:div {:class (str "sand " sand}][0m
+  [0m  [0m  [33m  D:\projects\parens-of-the-dead\src\undead\client.cljs [line 27, col 35] Unmatched delimiter }.[0m
+  [36m28[0m  [36m)[0m
+  [36m29[0m  [36m(defn Timer [sand][0m
+  [36m30[0m  [36m  [:div {:class "timer"}[0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.526 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:10  column:29  ----[0m
+
+  [1mUse of undeclared Var undead.client/gone[0m
+
+  [36m 6[0m  [36m    {:board [{:face :h1} {:face :h1} {:face :h2} {:face :h2 :revealed? true}[0m
+  [36m 7[0m  [36m             {:face :h3} {:face :h3} {:face :h4 :matched? true} {:face :h4 :matched? true}[0m
+  [36m 8[0m  [36m				 {:face :h5} {:face :h5} {:face :fg} {:face :fg}[0m
+  [36m 9[0m  [36m				 {:face :zo} {:face :zo} {:face :zo} {:face :gy}][0m
+  [33m10[0m  [1m	  :sand (concat (repeat 10 gone)[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var undead.client/gone[0m
+  [36m11[0m  [36m	              (repeat 20 remaining))[0m
+  [36m12[0m  [36m	  :foggy? false}))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn Cell [cell][0m
+  [36m15[0m  [36m  [:div {:class "cell"}[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:11  column:27  ----[0m
+
+  [1mUse of undeclared Var undead.client/remaining[0m
+
+  [36m 7[0m  [36m             {:face :h3} {:face :h3} {:face :h4 :matched? true} {:face :h4 :matched? true}[0m
+  [36m 8[0m  [36m				 {:face :h5} {:face :h5} {:face :fg} {:face :fg}[0m
+  [36m 9[0m  [36m				 {:face :zo} {:face :zo} {:face :zo} {:face :gy}][0m
+  [36m10[0m  [36m	  :sand (concat (repeat 10 gone)[0m
+  [33m11[0m  [1m	              (repeat 20 remaining))[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var undead.client/remaining[0m
+  [36m12[0m  [36m	  :foggy? false}))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn Cell [cell][0m
+  [36m15[0m  [36m  [:div {:class "cell"}[0m
+  [36m16[0m  [36m    [:div {:class (str "tile"[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.958 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.271 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.225 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.142 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.452 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.665 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.848 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.446 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.505 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:32  column:11  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/apply[0m
+
+  [36m28[0m  [36m  [:div {:class (str "sand " sand)}][0m
+  [36m29[0m  [36m)[0m
+  [36m30[0m  [36m(defn Timer [sand][0m
+  [36m31[0m  [36m  [:div {:class "timer"}[0m
+  [33m32[0m  [1m    (map #(apply [:div {:class (str "sand " %)}]) sand)[0m
+  [0m  [0m  [33m          ^--- Wrong number of args (1) passed to cljs.core/apply[0m
+  [36m33[0m  [36m  ])[0m
+  [36m34[0m  [36m	 [0m
+  [36m35[0m  [36m(defn Board [cells][0m
+  [36m36[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m37[0m  [36m    (map Line (partition 4 cells))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.522 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:31  column:3  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/apply[0m
+
+  [36m27[0m  [36m(defn Sand [sand][0m
+  [36m28[0m  [36m  [:div {:class (str "sand " sand)}][0m
+  [36m29[0m  [36m)[0m
+  [36m30[0m  [36m(defn Timer [sand][0m
+  [33m31[0m  [1m  (apply [:div {:class "timer"}[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (1) passed to cljs.core/apply[0m
+  [36m32[0m  [36m    (map #([:div {:class (str "sand " %)}]) sand)[0m
+  [36m33[0m  [36m  ]))[0m
+  [36m34[0m  [36m	 [0m
+  [36m35[0m  [36m(defn Board [cells][0m
+  [36m36[0m  [36m  [:div {:class "board clearfix"}[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.077 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.681 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.613 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.269 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.324 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.764 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.158 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.905 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.148 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.413 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.541 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.849 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.069 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.446 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.465 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.394 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.43 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.885 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.879 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.432 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.592 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:16  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m13[0m  [36m(defn Cell [tile][0m
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [33m16[0m  [1m	                  (when (:revealed? cell) " revealed")[0m
+  [0m  [0m  [33m                                     ^--- Use of undeclared Var undead.client/cell[0m
+  [36m17[0m  [36m	                  (when (:matched? cell) " revealed"))}[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [36m19[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m20[0m  [36m) [0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:17  column:37  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m13[0m  [36m(defn Cell [tile][0m
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [36m16[0m  [36m	                  (when (:revealed? cell) " revealed")[0m
+  [33m17[0m  [1m	                  (when (:matched? cell) " revealed"))}[0m
+  [0m  [0m  [33m                                    ^--- Use of undeclared Var undead.client/cell[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [36m19[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m20[0m  [36m) [0m
+  [36m21[0m  [36m	  [0m
+  [36m22[0m  [36m(defn Line [tiles][0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:19  column:43  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [36m16[0m  [36m	                  (when (:revealed? cell) " revealed")[0m
+  [36m17[0m  [36m	                  (when (:matched? cell) " revealed"))}[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [33m19[0m  [1m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var undead.client/cell[0m
+  [36m20[0m  [36m) [0m
+  [36m21[0m  [36m	  [0m
+  [36m22[0m  [36m(defn Line [tiles][0m
+  [36m23[0m  [36m  [:div {:class "line"}[0m
+  [36m24[0m  [36m    (map Cell tiles)])[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.393 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.272 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.741 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.527 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.188 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.507 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.97 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.026 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:16  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m13[0m  [36m(defn Cell [tile][0m
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [33m16[0m  [1m	                  (when (:revealed? cell) " revealed")[0m
+  [0m  [0m  [33m                                     ^--- Use of undeclared Var undead.client/cell[0m
+  [36m17[0m  [36m	                  (when (:matched? cell) " revealed"))}[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [36m19[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m20[0m  [36m) [0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:17  column:37  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m13[0m  [36m(defn Cell [tile][0m
+  [36m14[0m  [36m  [:div {:class "cell"}[0m
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [36m16[0m  [36m	                  (when (:revealed? cell) " revealed")[0m
+  [33m17[0m  [1m	                  (when (:matched? cell) " revealed"))}[0m
+  [0m  [0m  [33m                                    ^--- Use of undeclared Var undead.client/cell[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [36m19[0m  [36m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [36m20[0m  [36m) [0m
+  [36m21[0m  [36m	  [0m
+  [36m22[0m  [36m(defn Line [tiles][0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:19  column:43  ----[0m
+
+  [1mUse of undeclared Var undead.client/cell[0m
+
+  [36m15[0m  [36m    [:div {:class (str "tile"[0m
+  [36m16[0m  [36m	                  (when (:revealed? cell) " revealed")[0m
+  [36m17[0m  [36m	                  (when (:matched? cell) " revealed"))}[0m
+  [36m18[0m  [36m	   [:div {:class "front"}][0m
+  [33m19[0m  [1m		[:div {:class (str "back " (name (:face cell)))}]]][0m
+  [0m  [0m  [33m                                          ^--- Use of undeclared Var undead.client/cell[0m
+  [36m20[0m  [36m) [0m
+  [36m21[0m  [36m	  [0m
+  [36m22[0m  [36m(defn Line [tiles][0m
+  [36m23[0m  [36m  [:div {:class "line"}[0m
+  [36m24[0m  [36m    (map Cell tiles)])[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.913 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.545 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.234 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.027 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:17  column:3  ----[0m
+
+  [1mUnable to resolve symbol: >2 in this context[0m
+
+  [36m16[0m  [36m(defn can-reveal? [game][0m
+  [33m17[0m  [1m  (>2 (count (revealed-tiles game))))	[0m
+  [0m  [0m  [33m  ^--- Unable to resolve symbol: >2 in this context[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn reveal-tile [game index][0m
+  [36m20[0m  [36m  (if (can-reveal? game)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: >2 in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:17  column:3  ----[0m
+
+  [1mUnable to resolve symbol: >2 in this context[0m
+
+  [36m16[0m  [36m(defn can-reveal? [game][0m
+  [33m17[0m  [1m  (>2 (count (revealed-tiles game))))	[0m
+  [0m  [0m  [33m  ^--- Unable to resolve symbol: >2 in this context[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn reveal-tile [game index][0m
+  [36m20[0m  [36m  (if (can-reveal? game)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: >2 in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:17  column:3  ----[0m
+
+  [1mUnable to resolve symbol: >2 in this context[0m
+
+  [36m16[0m  [36m(defn can-reveal? [game][0m
+  [33m17[0m  [1m  (>2 (count (revealed-tiles game))))	[0m
+  [0m  [0m  [33m  ^--- Unable to resolve symbol: >2 in this context[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(defn match-revealed [tiles][0m
+  [36m20[0m  [36m  (mapv (fn [tile] [0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: >2 in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.067 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.104 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.629 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:41  column:7  ----[0m
+
+  [1mUnable to resolve symbol: thie in this context[0m
+
+  [36m39[0m  [36m(mapv (fn [tile][0m
+  [36m40[0m  [36m        (if (= :gy (:face tile))[0m
+  [33m41[0m  [1m	   (assoc thie :face :zo)[0m
+  [0m  [0m  [33m    ^--- Unable to resolve symbol: thie in this context[0m
+  [36m42[0m  [36m		tile))[0m
+  [36m43[0m  [36m  tiles))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: thie in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3834)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2797)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3834)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.779 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:35  column:4  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+
+  [36m31[0m  [36m	 (Timers (:sand game))[0m
+  [36m32[0m  [36m  ])[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(defn render-game [game container][0m
+  [33m35[0m  [1m  (r/render-component [Game game] container))[0m
+  [0m  [0m  [33m   ^--- No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:35  column:4  ----[0m
+
+  [1mUse of undeclared Var r/render-component[0m
+
+  [36m31[0m  [36m	 (Timers (:sand game))[0m
+  [36m32[0m  [36m  ])[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(defn render-game [game container][0m
+  [33m35[0m  [1m  (r/render-component [Game game] container))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var r/render-component[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.404 seconds.[0m
+[36m----  Could not Analyze  src/undead/client.cljs  ----[0m
+
+  [1mInvalid :refer, var undead.components/render-game does not exist [0m
+
+[36m----  Analysis Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.82 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.729 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:19  column:5  ----[0m
+
+  [1mWrong number of args (3) passed to cljs.core/map-indexed[0m
+
+  [36m15[0m  [36m    (map Cell tiles)])[0m
+  [36m16[0m  [36m	 [0m
+  [36m17[0m  [36m(defn Timer [index sand][0m
+  [36m18[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [33m19[0m  [1m    (map-indexed (fn [index timer sand] [:div {:class (str "sand " (name s))}]) index sand)[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (3) passed to cljs.core/map-indexed[0m
+  [36m20[0m  [36m  ])[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn Timers [sand][0m
+  [36m23[0m  [36m  [:div {}[0m
+  [36m24[0m  [36m    (map-indexed Timer (partition 30 sand))][0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:19  column:74  ----[0m
+
+  [1mUse of undeclared Var undead.components/s[0m
+
+  [36m15[0m  [36m    (map Cell tiles)])[0m
+  [36m16[0m  [36m	 [0m
+  [36m17[0m  [36m(defn Timer [index sand][0m
+  [36m18[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [33m19[0m  [1m    (map-indexed (fn [index timer sand] [:div {:class (str "sand " (name s))}]) index sand)[0m
+  [0m  [0m  [33m                                                                         ^--- Use of undeclared Var undead.components/s[0m
+  [36m20[0m  [36m  ])[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn Timers [sand][0m
+  [36m23[0m  [36m  [:div {}[0m
+  [36m24[0m  [36m    (map-indexed Timer (partition 30 sand))][0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.467 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:19  column:68  ----[0m
+
+  [1mUse of undeclared Var undead.components/s[0m
+
+  [36m15[0m  [36m    (map Cell tiles)])[0m
+  [36m16[0m  [36m	 [0m
+  [36m17[0m  [36m(defn Timer [index sand][0m
+  [36m18[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [33m19[0m  [1m    (map-indexed (fn [index sand] [:div {:class (str "sand " (name s))}]) sand)[0m
+  [0m  [0m  [33m                                                                   ^--- Use of undeclared Var undead.components/s[0m
+  [36m20[0m  [36m  ])[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn Timers [sand][0m
+  [36m23[0m  [36m  [:div {}[0m
+  [36m24[0m  [36m    (map-indexed Timer (partition 30 sand))][0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.654 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.559 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.626 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.72 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.373 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.86 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:14  column:10  ----[0m
+
+  [1mUse of undeclared Var undead.components/index[0m
+
+  [36m10[0m  [36m		^{:key (str "back" index)}[:div {:class (str "back " (name (:face tile)))}]]][0m
+  [36m11[0m  [36m) [0m
+  [36m12[0m  [36m	  [0m
+  [36m13[0m  [36m(defn Line [tiles][0m
+  [33m14[0m  [1m  ^{:key index}[:div {:class "line"}[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var undead.components/index[0m
+  [36m15[0m  [36m    (map-indexed Cell tiles)])[0m
+  [36m16[0m  [36m	 [0m
+  [36m17[0m  [36m(defn Timer [index sand][0m
+  [36m18[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m19[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.637 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.537 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.364 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.697 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.614 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
