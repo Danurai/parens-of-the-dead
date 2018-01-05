@@ -1,7 +1,7 @@
 (ns undead.system
 	 (:require [org.httpkit.server :refer [run-server]]
-				[com.stuartsierra.component :as component]
-				[undead.web :refer [app]]))
+				 [com.stuartsierra.component :as component]
+				 [undead.web :refer [app]]))
 
 (defn- start-server [handler port]
   (let [server (run-server handler {:port port})]

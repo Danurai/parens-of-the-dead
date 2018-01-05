@@ -1327,3 +1327,2521 @@ notifying browser that file changed:  target\classes\public\out\undead\client.js
 [0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
 [32mSuccessfully compiled "target/classes/public/app.js" in 2.614 seconds.[0m
 notifying browser that file changed:  target\classes\public\out\undead\client.js
+[36m----  Couldn't load Clojure file  src/undead/web.clj   line:1  column:1  ----[0m
+
+  [1mCould not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+
+  [33m1[0m  [1m(ns undead.web[0m
+  [0m [0m  [33m^--- Could not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+  [36m2[0m  [36m  (:require [chord.http-kit :refer [with-channel]][0m
+  [36m3[0m  [36m           [compojure.core :refer [defroutes GET]][0m
+  [36m4[0m  [36m           [compojure.route :refer [resources]]))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.io.FileNotFoundException: Could not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+ at clojure.lang.RT.load (RT.java:456)
+    clojure.lang.RT.load (RT.java:419)
+    clojure.core$load$fn__5677.invoke (core.clj:5893)
+    clojure.core$load.invokeStatic (core.clj:5892)
+    clojure.core$load.doInvoke (core.clj:5876)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$load_one.invokeStatic (core.clj:5697)
+    clojure.core$load_one.invoke (core.clj:5692)
+    clojure.core$load_lib$fn__5626.invoke (core.clj:5737)
+    clojure.core$load_lib.invokeStatic (core.clj:5736)
+    clojure.core$load_lib.doInvoke (core.clj:5717)
+    clojure.lang.RestFn.applyTo (RestFn.java:142)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$load_libs.invokeStatic (core.clj:5774)
+    clojure.core$load_libs.doInvoke (core.clj:5758)
+    clojure.lang.RestFn.applyTo (RestFn.java:137)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$require.invokeStatic (core.clj:5796)
+    clojure.core$require.doInvoke (core.clj:5796)
+    clojure.lang.RestFn.invoke (RestFn.java:436)
+    undead.web$eval61353$loading__5569__auto____61354.invoke (web.clj:1)
+    undead.web$eval61353.invokeStatic (web.clj:1)
+    undead.web$eval61353.invoke (web.clj:1)
+    clojure.lang.Compiler.eval (Compiler.java:6927)
+    clojure.lang.Compiler.eval (Compiler.java:6916)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/web.clj   line:1  column:1  ----[0m
+
+  [1mCould not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+
+  [33m1[0m  [1m(ns undead.web[0m
+  [0m [0m  [33m^--- Could not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+  [36m2[0m  [36m  (:require [chord.http-kit :refer [with-channel]][0m
+  [36m3[0m  [36m           [clojure.core.async :refer [>! go]][0m
+  [36m4[0m  [36m           [compojure.core :refer [defroutes GET]][0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.io.FileNotFoundException: Could not locate chord/http_kit__init.class or chord/http_kit.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+ at clojure.lang.RT.load (RT.java:456)
+    clojure.lang.RT.load (RT.java:419)
+    clojure.core$load$fn__5677.invoke (core.clj:5893)
+    clojure.core$load.invokeStatic (core.clj:5892)
+    clojure.core$load.doInvoke (core.clj:5876)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$load_one.invokeStatic (core.clj:5697)
+    clojure.core$load_one.invoke (core.clj:5692)
+    clojure.core$load_lib$fn__5626.invoke (core.clj:5737)
+    clojure.core$load_lib.invokeStatic (core.clj:5736)
+    clojure.core$load_lib.doInvoke (core.clj:5717)
+    clojure.lang.RestFn.applyTo (RestFn.java:142)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$load_libs.invokeStatic (core.clj:5774)
+    clojure.core$load_libs.doInvoke (core.clj:5758)
+    clojure.lang.RestFn.applyTo (RestFn.java:137)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$require.invokeStatic (core.clj:5796)
+    clojure.core$require.doInvoke (core.clj:5796)
+    clojure.lang.RestFn.invoke (RestFn.java:482)
+    undead.web$eval61359$loading__5569__auto____61360.invoke (web.clj:1)
+    undead.web$eval61359.invokeStatic (web.clj:1)
+    undead.web$eval61359.invoke (web.clj:1)
+    clojure.lang.Compiler.eval (Compiler.java:6927)
+    clojure.lang.Compiler.eval (Compiler.java:6916)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27371.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27404.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27457.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27498.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3063$fn__3064.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3063.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.599 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:11 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 11, col 1] Unexpected EOF while reading item 4 of list, starting at line 8 and column 3.[0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:7  column:2  ----[0m
+
+  [1mUse of undeclared Var undead.client/go[0m
+
+  [36m 3[0m  [36m           [undead.components :refer [render-game]]))[0m
+  [36m 4[0m  [36m[0m
+  [36m 5[0m  [36m(def container (.getElementById js/document "main"))[0m
+  [36m 6[0m  [36m[0m
+  [33m 7[0m  [1m(go[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var undead.client/go[0m
+  [36m 8[0m  [36m  (let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m 9[0m  [36m    (when error (throw error))[0m
+  [36m10[0m  [36m	 (render-game (:message (<! ws-channel)) container)))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:8  column:37  ----[0m
+
+  [1mUse of undeclared Var undead.client/<![0m
+
+  [36m 5[0m  [36m(def container (.getElementById js/document "main"))[0m
+  [36m 6[0m  [36m[0m
+  [36m 7[0m  [36m(go[0m
+  [33m 8[0m  [1m  (let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [0m  [0m  [33m                                    ^--- Use of undeclared Var undead.client/<![0m
+  [36m 9[0m  [36m    (when error (throw error))[0m
+  [36m10[0m  [36m	 (render-game (:message (<! ws-channel)) container)))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:10  column:27  ----[0m
+
+  [1mUse of undeclared Var undead.client/<![0m
+
+  [36m 7[0m  [36m(go[0m
+  [36m 8[0m  [36m  (let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m 9[0m  [36m    (when error (throw error))[0m
+  [33m10[0m  [1m	 (render-game (:message (<! ws-channel)) container)))[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var undead.client/<![0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.725 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 0.058 seconds.[0m
+[36m----  Could not Analyze  src/undead/client.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: [cljs core.async :refer [<!]] at line 1 src\undead\client.cljs[0m
+
+  [33m1[0m  [1m(ns undead.client[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: [cljs core.async :refer [<!]] at line 1 src\undead\client.cljs[0m
+  [36m2[0m  [36m  (:require [chord.client :refer [ws-ch]][0m
+  [36m3[0m  [36m           [cljs,core.async :refer [<!]][0m
+  [36m4[0m  [36m           [undead.components :refer [render-game]])[0m
+
+[36m----  Analysis Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.885 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.541 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.392 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.746 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.246 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/web.clj   line:10  column:5  ----[0m
+
+  [1mCould not resolve var: <![0m
+
+  [36m 8[0m  [36m(defn ws-handler [req][0m
+  [36m 9[0m  [36m  (with-channel req ws-channel[0m
+  [33m10[0m  [1m    (go[0m
+  [0m  [0m  [33m    ^--- Could not resolve var: <![0m
+  [36m11[0m  [36m	   (loop [game (create-game)][0m
+  [36m12[0m  [36m	     (>! ws-channel game)[0m
+  [36m13[0m  [36m		  (when-let [tile-index (:message (<! ws-channel))][0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+clojure.lang.ExceptionInfo: Could not resolve var: <!
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.analyzer.passes.jvm.validate$eval19230$fn__19232.invoke (validate.clj:28)
+    clojure.lang.MultiFn.invoke (MultiFn.java:229)
+    clojure.tools.analyzer.passes.jvm.validate$validate.invokeStatic (validate.clj:265)
+    clojure.tools.analyzer.passes.jvm.validate$validate.invoke (validate.clj:240)
+    clojure.lang.Var.invoke (Var.java:379)
+    clojure.tools.analyzer.passes$compile_passes$fn__17622$fn__17627.invoke (passes.clj:166)
+    clojure.tools.analyzer.passes$compile_passes$fn__17622$fn__17629.invoke (passes.clj:168)
+    clojure.tools.analyzer.passes$compile_passes$fn__17622$fn__17629.invoke (passes.clj:168)
+    clojure.tools.analyzer.passes$compile_passes$fn__17622$fn__17629.invoke (passes.clj:168)
+    clojure.core$partial$fn__4761.invoke (core.clj:2522)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:102)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invokeStatic (utils.clj:208)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invoke (utils.clj:202)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invokeStatic (utils.clj:208)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invoke (utils.clj:202)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__17525$walk__17526.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__17516.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__17525.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk.invokeStatic (ast.clj:95)
+    clojure.tools.analyzer.ast$walk.invoke (ast.clj:84)
+    clojure.tools.analyzer.ast$postwalk.invokeStatic (ast.clj:115)
+    clojure.tools.analyzer.ast$postwalk.invoke (ast.clj:110)
+    clojure.tools.analyzer.ast$postwalk.invokeStatic (ast.clj:113)
+    clojure.tools.analyzer.ast$postwalk.invoke (ast.clj:110)
+    clojure.tools.analyzer.passes$compile_passes$analyze__17634.invoke (passes.clj:170)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.tools.analyzer.jvm$analyze$fn__20236$fn__20241.invoke (jvm.clj:469)
+    clojure.tools.analyzer.jvm$analyze$fn__20236.invoke (jvm.clj:467)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:646)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1881)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1881)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.tools.analyzer.jvm$analyze.invokeStatic (jvm.clj:456)
+    clojure.tools.analyzer.jvm$analyze.invoke (jvm.clj:436)
+    clojure.core.async.impl.ioc_macros$state_machine.invokeStatic (ioc_macros.clj:1098)
+    clojure.core.async.impl.ioc_macros$state_machine.invoke (ioc_macros.clj:1096)
+    clojure.core.async$go.invokeStatic (async.clj:421)
+    clojure.core.async$go.doInvoke (async.clj:404)
+    clojure.lang.RestFn.invoke (RestFn.java:442)
+    clojure.lang.Var.invoke (Var.java:388)
+    clojure.lang.AFn.applyToHelper (AFn.java:160)
+    clojure.lang.Var.applyTo (Var.java:700)
+    clojure.lang.Compiler.macroexpand1 (Compiler.java:6776)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6854)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6319)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2797)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2797)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6319)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27466.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27499.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27552.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27593.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3160$fn__3161.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3160.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 2.303 seconds.[0m
+[36m----  Could not Read  src/undead/client.cljs   line:15 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 15, col 17] Unmatched delimiter ).[0m
+
+  [36m13[0m  [36m	   (when-let [game (:message (<! ws-channel))][0m
+  [36m14[0m  [36m		  (render-game game container)[0m
+  [33m15[0m  [1m		  (recur))))))[0m
+  [0m  [0m  [33mD:\projects\parens-of-the-dead\src\undead\client.cljs [line 15, col 17] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/undead/client.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.368 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.099 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.804 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.002 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.17 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.402 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.179 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:11  column:19  ----[0m
+
+  [1mUse of undeclared Var undead.components/put![0m
+
+  [36m 7[0m  [36m	                                        (when (:revealed? tile) " revealed")[0m
+  [36m 8[0m  [36m	                                        (when (:matched? tile) " revealed"))[0m
+  [36m 9[0m  [36m												 :on-click (fn [e][0m
+  [36m10[0m  [36m												             (.preventDefault e)[0m
+  [33m11[0m  [1m																 (put! reveal-ch))}[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var undead.components/put![0m
+  [36m12[0m  [36m	   ^{:key (str "front" reveal-ch)}[:div {:class "front"}][0m
+  [36m13[0m  [36m		^{:key (str "back" reveal-ch)}[:div {:class (str "back " (name (:face tile)))}]]][0m
+  [36m14[0m  [36m) [0m
+  [36m15[0m  [36m	  [0m
+  [36m16[0m  [36m(defn Line [index tiles][0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.959 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:13  column:23  ----[0m
+
+  [1mUse of undeclared Var undead.components/put![0m
+
+  [36m 9[0m  [36m               (when (:revealed? tile) " revealed")[0m
+  [36m10[0m  [36m               (when (:matched? tile) " revealed"))[0m
+  [36m11[0m  [36m        :on-click (fn [e][0m
+  [36m12[0m  [36m                   (.preventDefault e)[0m
+  [33m13[0m  [1m                   (put! reveal-ch 0))}[0m
+  [0m  [0m  [33m                    ^--- Use of undeclared Var undead.components/put![0m
+  [36m14[0m  [36m  ^{:key (str "front" reveal-ch)}[0m
+  [36m15[0m  [36m  [:div {:class "front"}][0m
+  [36m16[0m  [36m^{:key (str "back" reveal-ch)}[0m
+  [36m17[0m  [36m  [:div {:class (str "back " (name (:face tile)))}]]]) [0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:22  column:19  ----[0m
+
+  [1mUse of undeclared Var undead.components/reveal-ch[0m
+
+  [36m19[0m  [36m(defn Line [tiles][0m
+  [36m20[0m  [36m  ^{:key reveal-ch}[0m
+  [36m21[0m  [36m  [:div {:class "line"}[0m
+  [33m22[0m  [1m    (map #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var undead.components/reveal-ch[0m
+  [36m23[0m  [36m	 [0m
+  [36m24[0m  [36m(defn Timer [index sand][0m
+  [36m25[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m26[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m27[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:20  column:10  ----[0m
+
+  [1mUse of undeclared Var undead.components/reveal-ch[0m
+
+  [36m16[0m  [36m		^{:key (str "back" reveal-ch)}[0m
+  [36m17[0m  [36m		  [:div {:class (str "back " (name (:face tile)))}]]]) [0m
+  [36m18[0m  [36m	  [0m
+  [36m19[0m  [36m(defn Line [tiles][0m
+  [33m20[0m  [1m  ^{:key reveal-ch}[0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var undead.components/reveal-ch[0m
+  [36m21[0m  [36m  [:div {:class "line"}[0m
+  [36m22[0m  [36m    (map #(Cell % reveal-ch) tiles)])[0m
+  [36m23[0m  [36m	 [0m
+  [36m24[0m  [36m(defn Timer [index sand][0m
+  [36m25[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.075 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:13  column:23  ----[0m
+
+  [1mUse of undeclared Var undead.components/put![0m
+
+  [36m 9[0m  [36m               (when (:revealed? tile) " revealed")[0m
+  [36m10[0m  [36m               (when (:matched? tile) " revealed"))[0m
+  [36m11[0m  [36m        :on-click (fn [e][0m
+  [36m12[0m  [36m                   (.preventDefault e)[0m
+  [33m13[0m  [1m                   (put! reveal-ch 0))}[0m
+  [0m  [0m  [33m                    ^--- Use of undeclared Var undead.components/put![0m
+  [36m14[0m  [36m  ^{:key (str "front" index)}[0m
+  [36m15[0m  [36m  [:div {:class "front"}][0m
+  [36m16[0m  [36m^{:key (str "back" index)}[0m
+  [36m17[0m  [36m  [:div {:class (str "back " (name (:face tile)))}]]]) [0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:22  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m19[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m20[0m  [36m  ^{:key reveal-ch}[0m
+  [36m21[0m  [36m  [:div {:class "line"}[0m
+  [33m22[0m  [1m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m23[0m  [36m	 [0m
+  [36m24[0m  [36m(defn Timer [index sand][0m
+  [36m25[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m26[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m27[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:36  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m32[0m  [36m)[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m35[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m36[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(defn Game [game reveal-ch][0m
+  [36m39[0m  [36m  [:div {:class (when (:foggy? game) "foggy")}[0m
+  [36m40[0m  [36m    (Board (:tiles game) reveal-ch)[0m
+  [36m41[0m  [36m	 (Timers (:sand game))[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:45  column:34  ----[0m
+
+  [1mUse of undeclared Var undead.components/reveal-ch[0m
+
+  [36m41[0m  [36m	 (Timers (:sand game))[0m
+  [36m42[0m  [36m  ])[0m
+  [36m43[0m  [36m[0m
+  [36m44[0m  [36m(defn render-game [game container][0m
+  [33m45[0m  [1m  (r/render-component [Game game reveal-ch] container))[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.components/reveal-ch[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.084 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:13  column:23  ----[0m
+
+  [1mUse of undeclared Var undead.components/put![0m
+
+  [36m 9[0m  [36m               (when (:revealed? tile) " revealed")[0m
+  [36m10[0m  [36m               (when (:matched? tile) " revealed"))[0m
+  [36m11[0m  [36m        :on-click (fn [e][0m
+  [36m12[0m  [36m                   (.preventDefault e)[0m
+  [33m13[0m  [1m                   (put! reveal-ch 0))}[0m
+  [0m  [0m  [33m                    ^--- Use of undeclared Var undead.components/put![0m
+  [36m14[0m  [36m  ^{:key (str "front" index)}[0m
+  [36m15[0m  [36m  [:div {:class "front"}][0m
+  [36m16[0m  [36m^{:key (str "back" index)}[0m
+  [36m17[0m  [36m  [:div {:class (str "back " (name (:face tile)))}]]]) [0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:22  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m19[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m20[0m  [36m  ^{:key index}[0m
+  [36m21[0m  [36m  [:div {:class "line"}[0m
+  [33m22[0m  [1m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m25[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m26[0m  [36m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:26  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m22[0m  [36m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m25[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m26[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m27[0m  [36m	 [0m
+  [36m28[0m  [36m(defn Timer [index sand][0m
+  [36m29[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m30[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m31[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:44  column:34  ----[0m
+
+  [1mUse of undeclared Var undead.components/reveal-ch[0m
+
+  [36m40[0m  [36m	 (Timers (:sand game))[0m
+  [36m41[0m  [36m  ])[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(defn render-game [game container][0m
+  [33m44[0m  [1m  (r/render-component [Game game reveal-ch] container))[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.components/reveal-ch[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.88 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.39 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:10  column:3  ----[0m
+
+  [1mWrong number of args (3) passed to undead.components/render-game[0m
+
+  [36m 7[0m  [36m(def container (.getElementById js/document "main"))[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defonce run-once  ;; not every figwheel reload[0m
+  [33m10[0m  [1m  (go[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (3) passed to undead.components/render-game[0m
+  [36m11[0m  [36m    (let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m      (when error (js/console.log error))[0m
+  [36m13[0m  [36m  	   (loop [][0m
+  [36m14[0m  [36m  	     (when-let [game (:message (<! ws-channel))][0m
+  [36m15[0m  [36m  	 	    (render-game game container reveal-ch)[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.914 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:13  column:23  ----[0m
+
+  [1mUse of undeclared Var undead.components/put![0m
+
+  [36m 9[0m  [36m               (when (:revealed? tile) " revealed")[0m
+  [36m10[0m  [36m               (when (:matched? tile) " revealed"))[0m
+  [36m11[0m  [36m        :on-click (fn [e][0m
+  [36m12[0m  [36m                   (.preventDefault e)[0m
+  [33m13[0m  [1m                   (put! reveal-ch 0))}[0m
+  [0m  [0m  [33m                    ^--- Use of undeclared Var undead.components/put![0m
+  [36m14[0m  [36m  ^{:key (str "front" index)}[0m
+  [36m15[0m  [36m  [:div {:class "front"}][0m
+  [36m16[0m  [36m^{:key (str "back" index)}[0m
+  [36m17[0m  [36m  [:div {:class (str "back " (name (:face tile)))}]]]) [0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:22  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m19[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m20[0m  [36m  ^{:key index}[0m
+  [36m21[0m  [36m  [:div {:class "line"}[0m
+  [33m22[0m  [1m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m25[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m26[0m  [36m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:26  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m22[0m  [36m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m25[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m26[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m27[0m  [36m	 [0m
+  [36m28[0m  [36m(defn Timer [index sand][0m
+  [36m29[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m30[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m31[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.075 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 0.051 seconds.[0m
+[36m----  Could not Read  src/undead/components.cljs   line:3 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\components.cljs [line 3, col 32] Unmatched delimiter ).[0m
+
+  [36m1[0m  [36m(ns undead.components[0m
+  [36m2[0m  [36m	(:require [cljs.core.async :refer [put!] [0m
+  [33m3[0m  [1m	         [reagent.core :as r]))[0m
+  [0m [0m  [33mD:\projects\parens-of-the-dead\src\undead\components.cljs [line 3, col 32] Unmatched delimiter ).[0m
+  [36m4[0m  [36m[0m
+  [36m5[0m  [36m(defn Cell [index tile reveal-ch][0m
+  [36m6[0m  [36m  ^{:key index}[0m
+
+[36m----  Reader Error : Please see src/undead/components.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:23  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m20[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m21[0m  [36m  ^{:key index}[0m
+  [36m22[0m  [36m  [:div {:class "line"}[0m
+  [33m23[0m  [1m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m27[0m  [36m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:27  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m23[0m  [36m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m27[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m28[0m  [36m	 [0m
+  [36m29[0m  [36m(defn Timer [index sand][0m
+  [36m30[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m31[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m32[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.728 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:23  column:29  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m20[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m21[0m  [36m  ^{:key index}[0m
+  [36m22[0m  [36m  [:div {:class "line"}[0m
+  [33m23[0m  [1m    (map-indexed (fn [tile] (Cell tile reveal-ch)) tiles)])[0m
+  [0m  [0m  [33m                            ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m27[0m  [36m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:27  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m23[0m  [36m    (map-indexed (fn [tile] (Cell tile reveal-ch)) tiles)])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m27[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m28[0m  [36m	 [0m
+  [36m29[0m  [36m(defn Timer [index sand][0m
+  [36m30[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m31[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m32[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.942 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:27  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m23[0m  [36m    (map #(Cell % reveal-ch) tiles)])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m27[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m28[0m  [36m	 [0m
+  [36m29[0m  [36m(defn Timer [index sand][0m
+  [36m30[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m31[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m32[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.27 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:23  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m20[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m21[0m  [36m  ^{:key index}[0m
+  [36m22[0m  [36m  [:div {:class "line"}[0m
+  [33m23[0m  [1m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m27[0m  [36m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:27  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m23[0m  [36m    (map-indexed #(Cell % reveal-ch) tiles)])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m26[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m27[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m28[0m  [36m	 [0m
+  [36m29[0m  [36m(defn Timer [index sand][0m
+  [36m30[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m31[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m32[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.189 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.629 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.593 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/client.cljs   line:15  column:38  ----[0m
+
+  [1mUse of undeclared Var undead.client/reveal-ch[0m
+
+  [36m11[0m  [36m(let [{:keys [ws-channel error]} (<! (ws-ch "ws://localhost:9009/ws"))][0m
+  [36m12[0m  [36m  (when error (js/console.log error))[0m
+  [36m13[0m  [36m  (loop [][0m
+  [36m14[0m  [36m    (when-let [game (:message (<! ws-channel))][0m
+  [33m15[0m  [1m	    (render-game game container reveal-ch)[0m
+  [0m  [0m  [33m                                 ^--- Use of undeclared Var undead.client/reveal-ch[0m
+  [36m16[0m  [36m	    (recur))))))[0m
+
+[36m----  Compiler Warning : Please see src/undead/client.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.912 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.246 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.953 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.39 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.83 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.488 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.893 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.632 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:83  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 80[0m
+
+  [36m81[0m  [36m  (-> game[0m
+  [36m82[0m  [36m    (update-in [:tiles] assoc-ids)[0m
+  [33m83[0m  [1m    (update-in [:tiles] hide-faces))[0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 80[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: EOF while reading, starting at line 80
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.LispReader.readDelimitedList (LispReader.java:1206)
+    clojure.lang.LispReader$ListReader.invoke (LispReader.java:1049)
+    clojure.lang.LispReader.read (LispReader.java:263)
+    clojure.lang.LispReader.read (LispReader.java:196)
+    clojure.lang.Compiler.load (Compiler.java:7374)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__27466.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__27499.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__27552.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__27593.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__3160$fn__3161.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__3160.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.993 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.151 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.315 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.845 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.216 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.067 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.574 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.223 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.288 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 4.09 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.758 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.065 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.842 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[36m----  Couldn't load Clojure file  src/undead/game.clj   line:67  column:3  ----[0m
+
+  [1mUnable to resolve symbol: check-for-concealment in this context[0m
+
+  [36m65[0m  [36m	   (assoc-in [:tiles index :revealed?] true)[0m
+  [36m66[0m  [36m		(check-for-match)[0m
+  [33m67[0m  [1m		(check-for-concealment))[0m
+  [0m  [0m  [33m  ^--- Unable to resolve symbol: check-for-concealment in this context[0m
+  [36m68[0m  [36m	 game))[0m
+  [36m69[0m  [36m[0m
+  [36m70[0m  [36m(defn- hide-faces [tiles][0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: check-for-concealment in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2797)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.077 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.45 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.941 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.658 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.146 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.018 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.218 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.621 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.332 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/web.clj   line:1  column:1  ----[0m
+
+  [1mCould not locate undead/game_loop__init.class or undead/game_loop.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+
+  [33m1[0m  [1m(ns undead.web[0m
+  [0m [0m  [33m^--- Could not locate undead/game_loop__init.class or undead/game_loop.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.[0m
+  [36m2[0m  [36m  (:require [chord.http-kit :refer [with-channel]][0m
+  [36m3[0m  [36m           [compojure.core :refer [defroutes GET]][0m
+  [36m4[0m  [36m           [compojure.route :refer [resources]][0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.io.FileNotFoundException: Could not locate undead/game_loop__init.class or undead/game_loop.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+ at clojure.lang.RT.load (RT.java:456)
+    clojure.lang.RT.load (RT.java:419)
+    clojure.core$load$fn__5677.invoke (core.clj:5893)
+    clojure.core$load.invokeStatic (core.clj:5892)
+    clojure.core$load.doInvoke (core.clj:5876)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$load_one.invokeStatic (core.clj:5697)
+    clojure.core$load_one.invoke (core.clj:5692)
+    clojure.core$load_lib$fn__5626.invoke (core.clj:5737)
+    clojure.core$load_lib.invokeStatic (core.clj:5736)
+    clojure.core$load_lib.doInvoke (core.clj:5717)
+    clojure.lang.RestFn.applyTo (RestFn.java:142)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$load_libs.invokeStatic (core.clj:5774)
+    clojure.core$load_libs.doInvoke (core.clj:5758)
+    clojure.lang.RestFn.applyTo (RestFn.java:137)
+    clojure.core$apply.invokeStatic (core.clj:648)
+    clojure.core$require.invokeStatic (core.clj:5796)
+    clojure.core$require.doInvoke (core.clj:5796)
+    clojure.lang.RestFn.invoke (RestFn.java:457)
+    undead.web$eval43189$loading__5569__auto____43190.invoke (web.clj:1)
+    undead.web$eval43189.invokeStatic (web.clj:1)
+    undead.web$eval43189.invoke (web.clj:1)
+    clojure.lang.Compiler.eval (Compiler.java:6927)
+    clojure.lang.Compiler.eval (Compiler.java:6916)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.67 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/game-loop.clj   line:6  column:11  ----[0m
+
+  [1mUnable to resolve symbol: chan in this context[0m
+
+  [36m5[0m  [36m(defn tick-every [ms][0m
+  [33m6[0m  [1m  (let [c (chan)][0m
+  [0m [0m  [33m          ^--- Unable to resolve symbol: chan in this context[0m
+  [36m7[0m  [36m    (go-loop [][0m
+  [36m8[0m  [36m	   (<! (timeout ms))[0m
+  [36m9[0m  [36m		(when (>! c :tick)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: chan in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6269)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/game-loop.clj   line:6  column:11  ----[0m
+
+  [1mUnable to resolve symbol: chan in this context[0m
+
+  [36m5[0m  [36m(defn tick-every [ms][0m
+  [33m6[0m  [1m  (let [c (chan)][0m
+  [0m [0m  [33m          ^--- Unable to resolve symbol: chan in this context[0m
+  [36m7[0m  [36m    (go-loop [][0m
+  [36m8[0m  [36m	   (<! (timeout ms))[0m
+  [36m9[0m  [36m		(when (>! c :tick)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.RuntimeException: Unable to resolve symbol: chan in this context
+ at clojure.lang.Util.runtimeException (Util.java:221)
+    clojure.lang.Compiler.resolveIn (Compiler.java:7164)
+    clojure.lang.Compiler.resolve (Compiler.java:7108)
+    clojure.lang.Compiler.analyzeSymbol (Compiler.java:7069)
+    clojure.lang.Compiler.analyze (Compiler.java:6648)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6870)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6269)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/game-loop.clj   line:7  column:5  ----[0m
+
+  [1mCould not resolve var: timeout[0m
+
+  [36m 5[0m  [36m(defn tick-every [ms][0m
+  [36m 6[0m  [36m  (let [c (chan)][0m
+  [33m 7[0m  [1m    (go-loop [][0m
+  [0m  [0m  [33m    ^--- Could not resolve var: timeout[0m
+  [36m 8[0m  [36m	   (<! (timeout ms))[0m
+  [36m 9[0m  [36m		(when (>! c :tick)[0m
+  [36m10[0m  [36m		  (recur)))))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+clojure.lang.ExceptionInfo: Could not resolve var: timeout
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.analyzer.passes.jvm.validate$eval3841$fn__3843.invoke (validate.clj:28)
+    clojure.lang.MultiFn.invoke (MultiFn.java:229)
+    clojure.tools.analyzer.passes.jvm.validate$validate.invokeStatic (validate.clj:265)
+    clojure.tools.analyzer.passes.jvm.validate$validate.invoke (validate.clj:240)
+    clojure.lang.Var.invoke (Var.java:379)
+    clojure.tools.analyzer.passes$compile_passes$fn__2233$fn__2238.invoke (passes.clj:166)
+    clojure.tools.analyzer.passes$compile_passes$fn__2233$fn__2240.invoke (passes.clj:168)
+    clojure.tools.analyzer.passes$compile_passes$fn__2233$fn__2240.invoke (passes.clj:168)
+    clojure.tools.analyzer.passes$compile_passes$fn__2233$fn__2240.invoke (passes.clj:168)
+    clojure.core$partial$fn__4761.invoke (core.clj:2522)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:102)
+    clojure.tools.analyzer.ast$walk$walk__2136$walk__2137.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__2127.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__2136$walk__2137.invoke (ast.clj:96)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invokeStatic (utils.clj:208)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invoke (utils.clj:202)
+    clojure.tools.analyzer.ast$_update_children$fn__2127.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__2136$walk__2137.invoke (ast.clj:96)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invokeStatic (utils.clj:208)
+    clojure.tools.analyzer.utils$mapv_SINGLEQUOTE_.invoke (utils.clj:202)
+    clojure.tools.analyzer.ast$_update_children$fn__2127.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__2136$walk__2137.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__2127.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk$walk__2136$walk__2137.invoke (ast.clj:96)
+    clojure.tools.analyzer.ast$_update_children$fn__2127.invoke (ast.clj:51)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:341)
+    clojure.core$reduce.invokeStatic (core.clj:6544)
+    clojure.core$reduce.invoke (core.clj:6527)
+    clojure.tools.analyzer.ast$_update_children.invokeStatic (ast.clj:49)
+    clojure.tools.analyzer.ast$_update_children.invoke (ast.clj:46)
+    clojure.tools.analyzer.ast$update_children_reduced.invokeStatic (ast.clj:64)
+    clojure.tools.analyzer.ast$update_children_reduced.invoke (ast.clj:58)
+    clojure.tools.analyzer.ast$walk$walk__2136.invoke (ast.clj:99)
+    clojure.tools.analyzer.ast$walk.invokeStatic (ast.clj:95)
+    clojure.tools.analyzer.ast$walk.invoke (ast.clj:84)
+    clojure.tools.analyzer.ast$postwalk.invokeStatic (ast.clj:115)
+    clojure.tools.analyzer.ast$postwalk.invoke (ast.clj:110)
+    clojure.tools.analyzer.ast$postwalk.invokeStatic (ast.clj:113)
+    clojure.tools.analyzer.ast$postwalk.invoke (ast.clj:110)
+    clojure.tools.analyzer.passes$compile_passes$analyze__2245.invoke (passes.clj:170)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.core$comp$fn__4727.invoke (core.clj:2460)
+    clojure.tools.analyzer.jvm$analyze$fn__5635$fn__5640.invoke (jvm.clj:469)
+    clojure.tools.analyzer.jvm$analyze$fn__5635.invoke (jvm.clj:467)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:646)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1881)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1881)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.tools.analyzer.jvm$analyze.invokeStatic (jvm.clj:456)
+    clojure.tools.analyzer.jvm$analyze.invoke (jvm.clj:436)
+    clojure.core.async.impl.ioc_macros$state_machine.invokeStatic (ioc_macros.clj:1098)
+    clojure.core.async.impl.ioc_macros$state_machine.invoke (ioc_macros.clj:1096)
+    clojure.core.async$go.invokeStatic (async.clj:421)
+    clojure.core.async$go.doInvoke (async.clj:404)
+    clojure.lang.RestFn.invoke (RestFn.java:442)
+    clojure.lang.Var.invoke (Var.java:388)
+    clojure.lang.AFn.applyToHelper (AFn.java:160)
+    clojure.lang.Var.applyTo (Var.java:700)
+    clojure.lang.Compiler.macroexpand1 (Compiler.java:6776)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6854)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6319)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.58 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/game-loop.clj   line:13  column:3  ----[0m
+
+  [1mMismatched argument count to recur, expected: 1 args, had: 2[0m
+
+  [36m12[0m  [36m(defn start-game-loop [ws-channel][0m
+  [33m13[0m  [1m  (go[0m
+  [0m  [0m  [33m  ^--- Mismatched argument count to recur, expected: 1 args, had: 2[0m
+  [36m14[0m  [36m    (let [tick-ch (tick-every 200)][0m
+  [36m15[0m  [36m      (loop [game (create-game)][0m
+  [36m16[0m  [36m        (>! ws-channel (prep game))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+clojure.lang.ExceptionInfo: Mismatched argument count to recur, expected: 1 args, had: 2
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.analyzer$parse_recur.invokeStatic (analyzer.clj:551)
+    clojure.tools.analyzer$parse_recur.invoke (analyzer.clj:540)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:301)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_loop_STAR_.invokeStatic (analyzer.clj:538)
+    clojure.tools.analyzer$parse_loop_STAR_.invoke (analyzer.clj:530)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze.invokeStatic (analyzer.clj:115)
+    clojure.tools.analyzer$analyze.invoke (analyzer.clj:88)
+    clojure.tools.analyzer.jvm$analyze$fn__5635$fn__5640.invoke (jvm.clj:469)
+    clojure.tools.analyzer.jvm$analyze$fn__5635.invoke (jvm.clj:467)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:646)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1881)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1881)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.tools.analyzer.jvm$analyze.invokeStatic (jvm.clj:456)
+    clojure.tools.analyzer.jvm$analyze.invoke (jvm.clj:436)
+    clojure.core.async.impl.ioc_macros$state_machine.invokeStatic (ioc_macros.clj:1098)
+    clojure.core.async.impl.ioc_macros$state_machine.invoke (ioc_macros.clj:1096)
+    clojure.core.async$go.invokeStatic (async.clj:421)
+    clojure.core.async$go.doInvoke (async.clj:404)
+    clojure.lang.RestFn.invoke (RestFn.java:442)
+    clojure.lang.Var.invoke (Var.java:388)
+    clojure.lang.AFn.applyToHelper (AFn.java:160)
+    clojure.lang.Var.applyTo (Var.java:700)
+    clojure.lang.Compiler.macroexpand1 (Compiler.java:6776)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6854)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.573 seconds.[0m
+[36m----  Couldn't load Clojure file  src/undead/gam_loop.clj   line:13  column:3  ----[0m
+
+  [1mMismatched argument count to recur, expected: 1 args, had: 2[0m
+
+  [36m12[0m  [36m(defn start-game-loop [ws-channel][0m
+  [33m13[0m  [1m  (go[0m
+  [0m  [0m  [33m  ^--- Mismatched argument count to recur, expected: 1 args, had: 2[0m
+  [36m14[0m  [36m    (let [tick-ch (tick-every 200)][0m
+  [36m15[0m  [36m      (loop [game (create-game)][0m
+  [36m16[0m  [36m        (>! ws-channel (prep game))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+clojure.lang.ExceptionInfo: Mismatched argument count to recur, expected: 1 args, had: 2
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.analyzer$parse_recur.invokeStatic (analyzer.clj:551)
+    clojure.tools.analyzer$parse_recur.invoke (analyzer.clj:540)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:301)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_loop_STAR_.invokeStatic (analyzer.clj:538)
+    clojure.tools.analyzer$parse_loop_STAR_.invoke (analyzer.clj:530)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze.invokeStatic (analyzer.clj:115)
+    clojure.tools.analyzer$analyze.invoke (analyzer.clj:88)
+    clojure.tools.analyzer.jvm$analyze$fn__5635$fn__5640.invoke (jvm.clj:469)
+    clojure.tools.analyzer.jvm$analyze$fn__5635.invoke (jvm.clj:467)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:646)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1881)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1881)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.tools.analyzer.jvm$analyze.invokeStatic (jvm.clj:456)
+    clojure.tools.analyzer.jvm$analyze.invoke (jvm.clj:436)
+    clojure.core.async.impl.ioc_macros$state_machine.invokeStatic (ioc_macros.clj:1098)
+    clojure.core.async.impl.ioc_macros$state_machine.invoke (ioc_macros.clj:1096)
+    clojure.core.async$go.invokeStatic (async.clj:421)
+    clojure.core.async$go.doInvoke (async.clj:404)
+    clojure.lang.RestFn.invoke (RestFn.java:442)
+    clojure.lang.Var.invoke (Var.java:388)
+    clojure.lang.AFn.applyToHelper (AFn.java:160)
+    clojure.lang.Var.applyTo (Var.java:700)
+    clojure.lang.Compiler.macroexpand1 (Compiler.java:6776)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6854)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[36m----  Couldn't load Clojure file  src/undead/gam_loop - Copy.clj   line:13  column:3  ----[0m
+
+  [1mMismatched argument count to recur, expected: 1 args, had: 2[0m
+
+  [36m12[0m  [36m(defn start-game-loop [ws-channel][0m
+  [33m13[0m  [1m  (go[0m
+  [0m  [0m  [33m  ^--- Mismatched argument count to recur, expected: 1 args, had: 2[0m
+  [36m14[0m  [36m    (let [tick-ch (tick-every 200)][0m
+  [36m15[0m  [36m      (loop [game (create-game)][0m
+  [36m16[0m  [36m        (>! ws-channel (prep game))[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+clojure.lang.ExceptionInfo: Mismatched argument count to recur, expected: 1 args, had: 2
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.analyzer$parse_recur.invokeStatic (analyzer.clj:551)
+    clojure.tools.analyzer$parse_recur.invoke (analyzer.clj:540)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:301)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_if.invokeStatic (analyzer.clj:300)
+    clojure.tools.analyzer$parse_if.invoke (analyzer.clj:292)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_loop_STAR_.invokeStatic (analyzer.clj:538)
+    clojure.tools.analyzer$parse_loop_STAR_.invoke (analyzer.clj:530)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$parse_do.invokeStatic (analyzer.clj:284)
+    clojure.tools.analyzer$parse_do.invoke (analyzer.clj:276)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_body.invokeStatic (analyzer.clj:356)
+    clojure.tools.analyzer$analyze_body.invoke (analyzer.clj:354)
+    clojure.tools.analyzer$analyze_let.invokeStatic (analyzer.clj:515)
+    clojure.tools.analyzer$analyze_let.invoke (analyzer.clj:490)
+    clojure.tools.analyzer$parse_let_STAR_.invokeStatic (analyzer.clj:528)
+    clojure.tools.analyzer$parse_let_STAR_.invoke (analyzer.clj:523)
+    clojure.tools.analyzer$_parse.invokeStatic (analyzer.clj:809)
+    clojure.tools.analyzer$_parse.invoke (analyzer.clj:805)
+    clojure.tools.analyzer.jvm$parse.invokeStatic (jvm.clj:383)
+    clojure.tools.analyzer.jvm$parse.invoke (jvm.clj:380)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:271)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze_seq.invokeStatic (analyzer.clj:272)
+    clojure.tools.analyzer$analyze_seq.invoke (analyzer.clj:262)
+    clojure.tools.analyzer$eval1902$fn__1903.invoke (analyzer.clj:63)
+    clojure.lang.MultiFn.invoke (MultiFn.java:233)
+    clojure.tools.analyzer$analyze.invokeStatic (analyzer.clj:115)
+    clojure.tools.analyzer$analyze.invoke (analyzer.clj:88)
+    clojure.tools.analyzer.jvm$analyze$fn__5635$fn__5640.invoke (jvm.clj:469)
+    clojure.tools.analyzer.jvm$analyze$fn__5635.invoke (jvm.clj:467)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:646)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1881)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1881)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.tools.analyzer.jvm$analyze.invokeStatic (jvm.clj:456)
+    clojure.tools.analyzer.jvm$analyze.invoke (jvm.clj:436)
+    clojure.core.async.impl.ioc_macros$state_machine.invokeStatic (ioc_macros.clj:1098)
+    clojure.core.async.impl.ioc_macros$state_machine.invoke (ioc_macros.clj:1096)
+    clojure.core.async$go.invokeStatic (async.clj:421)
+    clojure.core.async$go.doInvoke (async.clj:404)
+    clojure.lang.RestFn.invoke (RestFn.java:442)
+    clojure.lang.Var.invoke (Var.java:388)
+    clojure.lang.AFn.applyToHelper (AFn.java:160)
+    clojure.lang.Var.applyTo (Var.java:700)
+    clojure.lang.Compiler.macroexpand1 (Compiler.java:6776)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6854)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:6001)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5380)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3972)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6866)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6856)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:589)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6868)
+    clojure.lang.Compiler.analyze (Compiler.java:6669)
+    clojure.lang.Compiler.analyze (Compiler.java:6625)
+    clojure.lang.Compiler.eval (Compiler.java:6931)
+    clojure.lang.Compiler.load (Compiler.java:7379)
+    clojure.lang.Compiler.loadFile (Compiler.java:7317)
+    clojure.lang.RT$3.invoke (RT.java:320)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invokeStatic (clj_reloading.clj:61)
+    figwheel_sidecar.build_middleware.clj_reloading$handle_clj_source_reloading.invoke (clj_reloading.clj:46)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__31386.invoke (clj_reloading.clj:93)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__31419.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__31472.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__31513.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__15409$fn__15410.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__15409.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (:-1)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (:-1)
+    java.lang.Thread.run (:-1)
+
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.205 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.227 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.223 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.705 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.47 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.864 seconds.[0m
+notifying browser that file changed:  target/classes/public/out/goog/deps.js
+notifying browser that file changed:  target/classes/public/out/cljs_deps.js
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.336 seconds.[0m
+[36m----  Could not Read  src/undead/components.cljs   line:35 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\components.cljs [line 35, col 13] Unmatched delimiter ).[0m
+
+  [36m33[0m  [36m  ])[0m
+  [36m34[0m  [36m(defn Timers [sand][0m
+  [33m35[0m  [1m  ^{:key 1})[0m
+  [0m  [0m  [33m  D:\projects\parens-of-the-dead\src\undead\components.cljs [line 35, col 13] Unmatched delimiter ).[0m
+  [36m36[0m  [36m  [:div {}[0m
+  [36m37[0m  [36m    (map-indexed Timer (partition 30 sand))][0m
+  [36m38[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/undead/components.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.79 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:28  column:19  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Line[0m
+
+  [36m24[0m  [36m    (map #(Cell % reveal-ch) tiles)])[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m27[0m  [36m  [:div {:class "board clearfix"}[0m
+  [33m28[0m  [1m    (map-indexed #(Line % reveal-ch) (partition 4 tiles))])[0m
+  [0m  [0m  [33m                  ^--- Wrong number of args (2) passed to undead.components/Line[0m
+  [36m29[0m  [36m	 [0m
+  [36m30[0m  [36m(defn Timer [index sand][0m
+  [36m31[0m  [36m  ^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m32[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [36m33[0m  [36m  ])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.105 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.737 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:24  column:45  ----[0m
+
+  [1mWrong number of args (3) passed to undead.components/Cell[0m
+
+  [36m21[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m22[0m  [36m  ^{:key index}[0m
+  [36m23[0m  [36m  [:div {:class "line"}[0m
+  [33m24[0m  [1m    (map-indexed (fn [index tile reveal-ch] (Cell index tile reveal-ch)) tiles)])[0m
+  [0m  [0m  [33m                                            ^--- Wrong number of args (3) passed to undead.components/Cell[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m27[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m28[0m  [36m    (map-indexed (fn [index tile reveal-ch] (Line index tile reveal-ch)) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.229 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.486 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.768 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.493 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.033 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.426 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.034 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 1.091 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.996 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[36m----  Compiler Warning on   src/undead/components.cljs   line:24  column:11  ----[0m
+
+  [1mWrong number of args (2) passed to undead.components/Cell[0m
+
+  [36m21[0m  [36m(defn Line [index tiles reveal-ch][0m
+  [36m22[0m  [36m  ^{:key index}[0m
+  [36m23[0m  [36m  [:div {:class "line"}[0m
+  [33m24[0m  [1m    (map #(Cell % reveal-ch) tiles)])[0m
+  [0m  [0m  [33m          ^--- Wrong number of args (2) passed to undead.components/Cell[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn Board [tiles reveal-ch][0m
+  [36m27[0m  [36m  [:div {:class "board clearfix"}[0m
+  [36m28[0m  [36m    (map-indexed (fn [index tile reveal-ch] (Line index tile reveal-ch)) (partition 4 tiles))])[0m
+
+[36m----  Compiler Warning : Please see src/undead/components.cljs  ----[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 3.33 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.728 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.255 seconds.[0m
+[36m----  Could not Read  src/undead/components.cljs   line:33 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\components.cljs [line 33, col 4] Unmatched delimiter ].[0m
+
+  [36m31[0m  [36m  ;;^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m32[0m  [36m    (map-indexed (fn [index sand] ;;^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [33m33[0m  [1m  ])[0m
+  [0m  [0m  [33m  D:\projects\parens-of-the-dead\src\undead\components.cljs [line 33, col 4] Unmatched delimiter ].[0m
+  [36m34[0m  [36m(defn Timers [sand][0m
+  [36m35[0m  [36m  ;;^{:key 1}[0m
+  [36m36[0m  [36m  [:div {}[0m
+
+[36m----  Reader Error : Please see src/undead/components.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[31mFailed to compile "target/classes/public/app.js" in 1.287 seconds.[0m
+[36m----  Could not Read  src/undead/components.cljs   line:33 ----[0m
+
+  [1mD:\projects\parens-of-the-dead\src\undead\components.cljs [line 33, col 4] Unmatched delimiter ].[0m
+
+  [36m31[0m  [36m  ;;^{:key (str "timer" index)} [:div {:class (str "timer timer-" index)}[0m
+  [36m32[0m  [36m    (map-indexed (fn [index sand] ^{:key index}[:div {:class (str "sand " (name sand))}]) sand)[0m
+  [33m33[0m  [1m  ])[0m
+  [0m  [0m  [33m  D:\projects\parens-of-the-dead\src\undead\components.cljs [line 33, col 4] Unmatched delimiter ].[0m
+  [36m34[0m  [36m(defn Timers [sand][0m
+  [36m35[0m  [36m  ;;^{:key 1}[0m
+  [36m36[0m  [36m  [:div {}[0m
+
+[36m----  Reader Error : Please see src/undead/components.cljs  ----[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.645 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.779 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.85 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.24 seconds.[0m
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.311 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
+notifying browser that file changed:  target\classes\public\out\undead\client.js
+[0mCompiling "target/classes/public/app.js" from ["src" "dev"]...[0m
+[32mSuccessfully compiled "target/classes/public/app.js" in 2.035 seconds.[0m
+notifying browser that file changed:  target\classes\public\out\undead\components.js
